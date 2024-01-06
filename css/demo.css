@@ -1,0 +1,94 @@
+/* DATEPICKER DEMO CSS */
+
+kbd
+        {
+        background-color:#eeeeee;
+        padding:2px;
+        border:1px solid #dddddd;
+        border-bottom-color:#999999;
+        border-left-color:#999999;
+        }
+kbd, code
+        {
+        font-family:'andale mono','lucida console','courier new',monospace;
+        font-size:1em;
+        }
+legend
+        {
+        color:#545454;
+        font-weight:bold;
+        _margin-bottom:1em;
+        }
+select
+        {
+        margin:0;
+        border:1px solid #ccc;
+        border-top-color:#aaa;
+        border-left-color:#aaa;
+        position:relative;
+        }
+option.alt
+        {
+        background:#eee;
+        }
+.w2em
+        {
+        width:2em;
+        }
+.w3em
+        {
+        width:3em;
+        }
+.w4em
+        {
+        width:4em;
+        }
+.w8em
+        {
+        width:8em;
+        }
+#newline-wrapper
+        {
+        margin-bottom:1em;
+        }
+#newline
+        {
+        background:#9cd001;
+        border:1px solid #bce058;
+        border-bottom-color:#80a300;
+        border-right-color:#80a300;
+        color:#fff;
+        padding:4px;
+        line-height:1em;
+        font-weight:normal;
+        text-transform:uppercase;
+        text-decoration:none;
+        }
+.firstup
+        {
+        padding-right:2em;
+        }
+.lastup
+        {
+        margin-bottom:0;
+        }
+.al-center
+        {
+        text-align:center;
+        }
+#infotable
+        {
+        width:100%;
+        margin-bottom:1.6em;
+        }
+#infotable th, #infotable td
+        {
+        padding:0.6em 0;
+        border-bottom:1px solid #ccc;
+        vertical-align:top;
+        text-align:left;
+        }
+#infotable th
+        {
+        border-top:1px solid #ccc;
+        }

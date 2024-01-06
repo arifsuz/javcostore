@@ -1,0 +1,11 @@
+<?php
+include("../db/dbconn.php");
+$result = mysql_query("SELECT * FROM `product`") or die(mysql_error());
+while($row = mysql_fetch_array($result)){
+
+$id = $row['product_id'];
+
+$q2 = mysql_query("INSERT INTO stock ( product_id, qty) VALUES ('$id','20')");
+}
+header("Location: admin_home.php");
+?>
